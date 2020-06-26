@@ -1,0 +1,60 @@
+body{
+	 background-color: black;
+	text-align: center;
+	text-transform: uppercase;
+	margin: 0;
+	letter-spacing: 2px;
+	font-family: "Avenir";
+	}
+.square{
+			width: 30%;
+			height: 30%;
+			padding-bottom: 150px;
+			margin: 1.66%;
+			border: 1px round black;
+			float: left;
+			background: purple;
+			border-radius: 30%;
+			transition: background 1s;
+		}
+#container{
+			max-width: 500px;
+			margin: 10px auto;
+		}
+div{
+	font-size: 200%;   /*Of h1's font-size.*/
+}
+p{
+	background: white;
+	margin: 0 auto;
+	height: 30px;
+}
+h1{
+	color: white;
+	background: steelblue;
+	font-weight: normal;
+	margin: 0;
+	padding: 20px 0;
+}
+button{
+	color: steelblue;
+	background: none;
+	border: none;
+	transition: all 0.5s;
+	height: 100%;
+	font-size: 20px;
+	font-weight: 700;
+}
+button:hover{
+	background: steelblue;
+	color: white;
+}
+.selected{
+	background: steelblue;
+	color: white;
+	outline: none;
+}
+#comment{
+	display: inline-block;
+	width: 20%;
+}
